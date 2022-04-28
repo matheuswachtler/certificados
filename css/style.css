@@ -1,0 +1,192 @@
+
+/* CSS GERAL*/
+
+
+
+
+body {
+    background-color: #1e1e1e;
+    color:#FFF;
+}
+
+
+h1 {
+    color: #FFF;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+
+/* CSS MENU */
+
+header, .navbar {
+    background-color:none;
+    
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 30px;
+  }
+
+  #logo_index {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    color: #FFF;
+    
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .navbar .btn-dark{
+      background-color: #553d7b;
+      border-radius: 30px;
+      font-family: Yusei Magic;
+  }
+
+  /* Corpo */
+
+  .corpo_container {
+    margin-top: 150px;
+    font-family: Yusei Magic;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .corpo_container #smi {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFF;
+  }
+
+
+  .main-title {
+    color: #FFF;
+    font-family: Yusei Magic;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .main-title::after {
+    content: "";
+    width: 15%;
+    position: absolute;
+    margin-top: 10px;
+    top: 60px;
+    left: 42.5%;
+  }
+  
+  /* sobre a página*/
+
+  
+
+  .sobre_pag {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+  .sobre_pag i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+  .sobre_pag h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+  .sobre_pag:hover > i , .sobre_pag:hover > h4 {
+ color: #553d7b;
+
+}
+
+
+/* Certificados */
+
+.main-subt {
+  color: #FFF;
+  font-family: Yusei Magic;
+  margin: 0 0 20px 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.main-subt::after {
+  content: "";
+  border-top: 2px solid #553d7b;
+  width: 15%;
+  position: absolute;
+  margin-top: 10px;
+  top: 60px;
+  left: 42.5%;
+}
+
+.main-subt:hover {
+    color: #553d7b;
+}
+
+.btn_cert {
+  background-color: #553d7b;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: Yusei Magic;
+  margin-bottom: 100px;
+  
+}
+
+.btn_cert:hover{
+  background-color: #553d7b;
+}
+
+
+/* Rodape */
+
+#copy-area {
+  background-color:  #1e1e1e;
+}
+
+#copy-area .container {
+  padding: 35px;
+  text-align: center;
+}
+
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color:#fff;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #553d7b;
+}
+
+
